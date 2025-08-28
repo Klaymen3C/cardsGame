@@ -40,7 +40,7 @@ export class Jugador {
     enviarAlCementerio(carta: Carta): void {
         const indice = this.mano.indexOf(carta);
         if (indice !== -1) {
-            this.tablero.splice(indice - 1);
+            this.tablero.splice(indice, 1);
             this.cementerio.push(carta);
             console.log(`${carta.nombre} fue enviada al cementerio`);
 

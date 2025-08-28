@@ -13,9 +13,9 @@ console.log('Tu baraja inicial es: ', barajaInicial);
 
 
 const Jugador1 = new Jugador('Capitan', barajaInicial);
-console.log(`Bienvenido al juego ${Jugador1.nombre}`);
-console.log(`Aqui tiene su baraja `, Jugador1.baraja);
+console.log(`Bienvenido al juego ${Jugador1.nombre}!`);
 console.log(`Vida: ${Jugador1.vida}`);
+console.log(`Aqui tiene su baraja `, Jugador1.baraja);
 
 
 
