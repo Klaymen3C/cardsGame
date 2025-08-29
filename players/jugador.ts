@@ -23,6 +23,7 @@ export class Jugador {
             console.log(`${this.nombre} robó la carta ${carta.nombre}`);
         } else {
             console.log(`${this.nombre} no tiene mas cartas para robar`);
+
         }
     }
 
