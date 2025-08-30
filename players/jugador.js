@@ -32,9 +32,9 @@ class Jugador {
         }
     }
     enviarAlCementerio(carta) {
-        const indice = this.mano.indexOf(carta);
+        const indice = this.tablero.indexOf(carta);
         if (indice !== -1) {
-            this.tablero.splice(indice - 1);
+            this.tablero.splice(indice, 1);
             this.cementerio.push(carta);
             console.log(`${carta.nombre} fue enviada al cementerio`);
         }
