@@ -9,13 +9,20 @@
 import { barajaInicial } from "./data/barajaInicial";
 import { Jugador } from "./players/jugador";
 
-console.log('Tu baraja inicial es: ', barajaInicial);
+// console.log('Tu baraja inicial es: ', barajaInicial);
 
 
-const Jugador1 = new Jugador('Capitan', barajaInicial);
-console.log(`Bienvenido al juego ${Jugador1.nombre}!`);
-console.log(`Vida: ${Jugador1.vida}`);
-console.log(`Aqui tiene su baraja `, Jugador1.baraja);
+// const Jugador1 = new Jugador('Capitan', barajaInicial);
+// console.log(`Bienvenido al juego ${Jugador1.nombre}!`);
+// console.log(`Vida: ${Jugador1.vida}`);
+// console.log(`Aqui tiene su baraja `, Jugador1.baraja);
+
+const Jugador2 = new Jugador('Ezio', barajaInicial);
+console.log(`Hola ${Jugador2.nombre}!`);
+console.log(`Esta es tu baraja: `, Jugador2.baraja);
+
+
+
 
 
 

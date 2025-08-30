@@ -34,4 +34,6 @@ export const barajaInicial: Baraja = [
     }
 ]
 
+//SON DOS BARAJAS, UNA CON ARDILLAS{ataque: 0, vida: 1, coste: gratis}(sirven para pagar sacrificios) Y OTRA CON LOS MONSTRUOS
+
 //FUNCIONES

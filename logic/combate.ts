@@ -15,6 +15,7 @@ export function aplicarEfecto() {
 
 }
 
+//ARREGLA ESTO ESTUPIDA LA CARTA ATACANTE NO RECIBE DAÑO DE LA CARTA DEFENSORA
 export function atacar(atacante: Carta, defensor: Carta | null, dueñoAtacante: Jugador, dueñoDefensor: Jugador): void {
     if (defensor) {
         defensor.vida -= atacante.ataque;
@@ -65,7 +66,6 @@ export function ataqueDirecto(atacante: Carta, dueñoAtacante: Jugador, dueñoDe
     console.log(`${dueñoAtacante.nombre} ataca directamente con ${atacante.nombre} causando ${atacante.ataque} de daño.`);
     console.log(`${dueñoDefensor.nombre} ahora tiene ${dueñoDefensor.vida} puntos de vida.`);
 }
-
 
 
 
